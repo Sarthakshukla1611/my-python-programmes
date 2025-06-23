@@ -1,0 +1,14 @@
+student_marks = {}
+
+student_marks["Ansh"] = 85
+student_marks["sarthak"] = 92
+student_marks["harsh"] = 78
+
+print("sarthak's marks:", student_marks["Bob"])
+
+student_marks["harsh"] = 80
+
+del student_marks["Ansh"]
+
+for name, marks in student_marks.items():
+    print(name, ":", marks)
